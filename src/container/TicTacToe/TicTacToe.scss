@@ -1,0 +1,15 @@
+.tic-tac-toe{
+    .box{
+        border: 1px black solid;
+        height: 28px;
+        max-width: 10px;
+        font-weight: 800;
+        font-size: 18px;
+    }
+    .red{
+color: red;
+    }
+    .green{
+        color:#57cf12;
+    }
+}

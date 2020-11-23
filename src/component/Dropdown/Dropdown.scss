@@ -1,0 +1,46 @@
+ 
+.common-dropdown {
+
+    span {
+        font-weight: bold;
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+        font-size: 15px;
+        margin-block-start: 15px;
+        text-transform: capitalize;
+    }
+
+    .labeltitle {
+        text-align: left;
+        font-weight: bold;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .validationmsg {
+        margin-top: 2px;
+        font-size: 11px;
+        color:red;
+    }
+    select {
+        height: 30px;
+        line-height: 30px;
+        border:1px solid #ccc;
+        width: 100%;
+        padding: 5px;
+        font-size: 13px;
+        color: #333;
+
+        &:focus {
+            outline: none;
+        }
+&:disabled{
+    background-color: rgb(235, 235, 228);
+}
+        &.validation-message {
+            border:1px solid red;
+        }
+    } 
+}

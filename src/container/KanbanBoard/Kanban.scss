@@ -1,0 +1,65 @@
+.kanban-container{
+    .column-row.row{
+            flex-wrap: nowrap;
+            margin-left: 0px;
+            margin-right: 0px;
+        div.card{
+             margin: 10px 5px 10px 5px;
+             &.project-container{
+                 padding: 0px;
+                &.over{
+background-color: royalblue;
+                }
+             }
+             .card-header{
+                font-weight: 600;
+                text-align: left;
+             }
+
+        }
+                .collapse-icon{
+                    float: right;
+
+                    width: 23px;
+                    text-align: center;
+                    border-radius: 20px;
+                    vertical-align: middle;
+                    &:hover{
+                        background-color: darkgray;
+                    }
+                }
+            .task-container{
+                text-align: left;
+                padding: 5px;
+
+               &:not(:first-child){ border-top: 1px solid #80808036;}
+            }
+    }
+}
+
+.App.container{
+    max-width: 100%;
+    padding: 0px;
+
+  }
+
+  .cursor{
+    cursor: pointer;
+  }
+
+  .add-kanban-form{
+    .activity-name-input{
+        margin-top: 0px ;
+        width: 180px;
+        input{
+            display: inline-block;
+        }
+    }
+    .submit-icon{
+        font-size: 20px;
+        padding-left: 10px;
+        // color: green;
+    }
+  }
+
+  .w3-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}

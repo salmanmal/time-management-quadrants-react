@@ -1,0 +1,34 @@
+.radio-group{
+
+
+.labeltitle {
+    text-align: left;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.radio-display-text{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom:0px;
+    font-size: 12px;
+}
+.radio-input-group{
+    display: inline-flex;
+    text-align: left;
+    width: 100%;
+
+    .radio-input{
+        input{
+            margin-right: 2px;
+            vertical-align: center;
+            position: relative;
+            top: 2px;
+        }
+        margin-right: 10px;
+    
+    }
+}
+
+}

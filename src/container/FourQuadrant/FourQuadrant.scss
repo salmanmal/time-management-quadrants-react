@@ -1,0 +1,61 @@
+.four-quadrant-container {
+  .quadrant-container {
+    .quadrant-title {
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .activity-list {
+      .activity {
+          border-collapse: 0;
+        border-bottom:1px solid grey;
+        min-height: 25px;
+        font-size: 13px;
+        font-weight: 600;
+        div{
+            padding-left: 10px;
+        }
+        &.completed {
+          background-color: #9ece5673;
+        }
+        &.pending {
+          background-color: #ce6c565e;
+        }
+        .mark-complete {
+            color: green;
+        }
+        .remove-activity {
+            color: red;
+
+        }
+      }
+    }
+ 
+  }
+}
+.grabbable {
+  cursor: move; /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+/* (Optional) Apply a "closed-hand" cursor during drag operation. */
+.grabbable:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+.add-activity {
+  .activity-name-input{
+      margin-top: 0px ;
+      width: 503px;
+      input{
+          display: inline-block;
+      }
+  }
+  .submit-icon{
+      font-size: 25px;
+      padding-left: 10px;
+      color: green;
+  }
+}
